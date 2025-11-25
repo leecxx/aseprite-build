@@ -109,7 +109,8 @@ jobs:
         cd tests
         $XVFB bash run-tests.sh
 
-            - name: Compiling
+#
+    - name: Compiling
       shell: bash
       run: |
         cd build && ninja
